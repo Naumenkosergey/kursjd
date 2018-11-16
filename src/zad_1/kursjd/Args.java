@@ -8,13 +8,13 @@ public class Args {
     }
 
     void printArgs() {
-//        int i = 1;
-//        for (String a : args) {
-//            i = i + 1;
-//            System.out.println("Аргумент " + i + "=" + a);
-//            System.out.println("1");
-//        }
+        int i = 0;
+       for (String a : args) {
+            i ++;
+            System.out.println("Аргумент " + i + " = " + a);
 
-        System.out.println("1");
+        }
+
+
     }
 }
